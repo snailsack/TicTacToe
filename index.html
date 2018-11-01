@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tic Tac Toe</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+</head>
+<body>
+  <h2 id="game-message">Tic Tac Toe</h2>
+  <div class="board">
+    <div id="row-1">
+      <div onclick="play(this,1)"></div>
+      <div onclick="play(this,2)"></div>
+      <div onclick="play(this,4)"></div>
+    </div>
+    <div id="row-2">
+      <div onclick="play(this,8)"></div>
+      <div onclick="play(this,16)"></div>
+      <div onclick="play(this,32)"></div>
+    </div>
+    <div id="row-3">
+      <div onclick="play(this,64)"></div>
+      <div onclick="play(this,128)"></div>
+      <div onclick="play(this,256)"></div>
+    </div>
+  </div>
+
+  <div id="scoreboard"></div>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
