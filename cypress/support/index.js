@@ -18,7 +18,3 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
-
-beforeEach(function () {
-  cy.log('Nick, you so good at testing. Keep it up bud!')
-})
